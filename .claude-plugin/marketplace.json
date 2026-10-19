@@ -1,0 +1,11 @@
+{
+  "name": "reraise-kit",
+  "owner": {"name": "reraise-kit"},
+  "plugins": [
+    {
+      "name": "reraise-kit",
+      "source": "./",
+      "description": "Knowledge cards and decision proposals for Claude Code."
+    }
+  ]
+}

@@ -20,6 +20,10 @@ class Layout(unittest.TestCase):
         self.assertEqual(m["name"], "reraise-kit")
         self.assertEqual(m["license"], "Apache-2.0")
 
+    def test_marketplace(self):
+        m = json.loads(load(".claude-plugin", "marketplace.json"))
+        self.assertEqual([(p["name"], p["source"]) for p in m["plugins"]], [("reraise-kit", "./")])
+
     def test_mcp_entry(self):
         s = json.loads(load(".mcp.json"))["mcpServers"]["reraise-kit"]
         self.assertEqual((s["command"], s["args"]), ("reraise-kit-mcp", ["serve"]))

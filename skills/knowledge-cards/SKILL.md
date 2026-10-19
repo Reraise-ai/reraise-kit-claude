@@ -19,7 +19,8 @@ Before each message, matching cards may be added in a block `<knowledge-cards no
 ## Searching and reading
 
 - Search with `cards_search` before saying you do not know something the user may have noted earlier.
-- Collection `wiki` is the default. Use `raw` (full texts of the user's files) only if the user has agreed to it.
+- Collection `wiki` is the default. Use `raw` (full texts of the user's files) only if the user has agreed to it;
+  the server allows it only when the owner has set `RERAISE_KIT_ALLOW_RAW=1`.
 - Read the full card with `card_get` before quoting details.
 
 ## Writing

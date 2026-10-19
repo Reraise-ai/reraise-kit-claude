@@ -29,7 +29,12 @@ Then start Claude Code with the plugin:
 claude --plugin-dir ./reraise-kit-claude
 ```
 
-To keep it installed, add this repository to a plugin marketplace you use and install `reraise-kit` from there.
+To keep it installed, use the repository as a plugin marketplace (it contains `.claude-plugin/marketplace.json`):
+
+```
+claude plugin marketplace add ./reraise-kit-claude
+claude plugin install reraise-kit@reraise-kit
+```
 
 ## Settings
 
