@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reraise-kit": {
+      "command": "reraise-kit-mcp",
+      "args": ["serve"]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "reraise-kit",
+  "version": "0.1.0",
+  "description": "Knowledge cards and decision proposals for Claude Code: matching cards are pushed in before every prompt, decisions are captured as proposals with the owner's own words.",
+  "license": "Apache-2.0",
+  "keywords": ["knowledge", "cards", "decisions", "mcp"]
+}

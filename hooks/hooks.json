@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "reraise-kit-mcp context --hook",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
